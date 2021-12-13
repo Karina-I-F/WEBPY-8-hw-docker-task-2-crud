@@ -2,13 +2,13 @@
 
 Типовые команды для запуска контейнера с backend-сервером:
 
-1. Создание контейнера из Dockerfile:
+1. Создание образа из Dockerfile:
 
 ```bash
 docker build -t stocks_products .
 ```
 
-2. Запуск контейнера:
+2. Создание и запуск контейнера:
 
 ```bash
 docker run -d -p 8000:8000 --name my_stocks_products stocks_products
